@@ -13,20 +13,20 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "boardgames",
-      "applicationUrl": "http://localhost:55221",
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:40080",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Staging"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "https": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "boardgames",
-      "applicationUrl": "https://localhost:55222;http://localhost:55221",
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:40443;http://localhost:40080",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Staging"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "IIS Express": {

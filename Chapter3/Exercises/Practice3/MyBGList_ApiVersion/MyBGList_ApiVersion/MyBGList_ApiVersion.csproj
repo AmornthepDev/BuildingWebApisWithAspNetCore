@@ -7,14 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="appsettings.Staging.json~RFda0913.TMP" />
-    <None Remove="Controllers\ErrorController.cs~RF5cd3e1b.TMP" />
-    <None Remove="Controllers\i014soyv.ofm~" />
-    <None Remove="Program.cs~RF631e282.TMP" />
-    <None Remove="Program.cs~RF641bad8.TMP" />
+    <Content Include="Properties\launchSettings.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc" Version="8.1.0" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
